@@ -7,18 +7,18 @@
 </template>
 
 <script lang="ts">
-import { ref } from "vue";
+import { ref } from 'vue'
 
 export default {
-  name: "HelloWorld",
+  name: 'HelloWorld',
   props: {
     msg: String,
   },
   setup() {
-    const count = ref(0);
+    const count = ref(0)
     return {
       count,
-    };
+    }
   },
-};
+}
 </script>

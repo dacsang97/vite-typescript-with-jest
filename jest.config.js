@@ -1,7 +1,7 @@
 module.exports = {
-  preset: "ts-jest",
+  preset: 'ts-jest',
   transform: {
-    "^.+\\js$": "babel-jest",
-    "^.+\\.vue$": "vue-jest",
+    '^.+\\js$': 'babel-jest',
+    '^.+\\.vue$': 'vue-jest',
   },
-};
+}
